@@ -1,0 +1,7 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "metals.enableSemanticHighlighting": true,
+    "metals.enableIndentOnPaste": true
+}
