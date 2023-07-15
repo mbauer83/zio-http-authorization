@@ -29,7 +29,8 @@ object Resource:
    * Describes the type and identity of a resource
    */
   trait ResourceDescriptor[I <: ResourceId, T <: TenantId] extends Product with Serializable:
-    type Id = I
+    type IdType = I
+    type TenantIdType = T
     val resourceName: String | Symbol
     val resourceId: I
     val tenantId: Option[T]

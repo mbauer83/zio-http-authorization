@@ -5,6 +5,9 @@ import User._
 
 import zio.ZIO
 import scala.reflect.ClassTag
+import mbauer83.zio_rbac.AuthorizationPolicy.UserNotAuthorizedForResourceException
+import zio.http.Request
+import zio.ZIOAppDefault
 
 /**
   * AuthorizationPolicies hold information about the type of [[User.User User]] and [[Resource.Resource Resource]]
@@ -170,3 +173,77 @@ object AuthorizationPolicy:
     val userId: I,
     val resourceDescriptor: ResourceDescriptor[_, _],
   ) extends Exception(s"User $userId is not authorized to access resource $resourceDescriptor")
+
+  /** An [[AuthorizationPolicy]] that authorizes access if and only if the user
+   *  has all of the required roles and all of the required permissions.
+   */
+  class GenericAuthorizationPolicy(val requiredRoles: Set[Role.Role], val requiredPermissions: Set[String | Symbol]) extends AuthorizationPolicy[User[?, ?], Resource[?]]:
+    def authorized[Res <: (Resource[?] | Iterable[Resource[?]])](user: User[?, ?])(resource: Res): ZIO[Any, UserNotAuthorizedForResourceException[?], Res] =
+      // check if user has all required roles and all required permissions matching the resource
+      val hasRequiredRoles = requiredRoles.subsetOf(user.roles)
+      def hasRequiredPermissions(u: User[?, ?])(r: Resource[?]): Boolean = 
+        requiredPermissions.foldLeft[Boolean](true)((acc, description) => acc && u.hasPermissionForResource(description)(r))
+      resource match {
+        case i: Iterable[_] =>
+          val filtered = i
+            .asInstanceOf[Iterator[Resource[?]]]
+            .filter(r => hasRequiredRoles && hasRequiredPermissions(user)(r))
+          if filtered.isEmpty then
+            ZIO.fail(UserNotAuthorizedForResourceException(user.id, resource.asInstanceOf[Resource[?]].descriptor))
+          else ZIO.succeed(filtered.asInstanceOf[Res])
+        case r: Resource[?]           =>
+          if hasRequiredRoles && hasRequiredPermissions(user)(r) then
+            ZIO.succeed(resource)
+          else ZIO.fail(UserNotAuthorizedForResourceException(user.id, resource.asInstanceOf[Resource[?]].descriptor))
+      }
+
+  /** Secures a parameterized effect with a [[GenericAuthorizationPolicy]].
+   *   
+   *  Takes a function from [[zio.http.Request Request]], specific type of [[User.User User]], and specific type of  [[Resource.Resource Resource]] to a [[zio.ZIO ZIO effect]]
+   *  as well as a set of roles and a set of permissions to produce a new function from a request, the given type of user, and the given type of resource to new ZIO effect
+   *  whose failure-type is the union of the original failure-type and [[UserNotAuthorizedForResourceException]].
+   * 
+   * @example Example usage in a ZIO-http app
+   * {{{
+   * import zio.http._
+   * 
+   * class SecuredExampleUsage extends ZIOAppDefault:
+   * 
+   *   val pathEffect: Request => GenericUser[String, Nothing] => Resource[StringResourceDescriptor] => ZIO[Any, Nothing, String] =
+   *     (r: Request) => (u: GenericUser[String, Nothing]) => (res: Resource[StringResourceDescriptor]) => ???
+   * 
+   *   val app: App[Any] = 
+   *     Http.collectZIO[Request] {
+   *       case req @ Method.GET -> Root / "test" => {
+   *         val securedPathEffectFn = secured(pathEffect)(Set(Role.SUPER), Set("read"))
+   *         val user: GenericUser[String, Nothing] = ???
+   *         val resource: Resource[StringResourceDescriptor] = ???
+   *         val securedEffect = securedPathEffectFn(req)(user)(resource).mapError(_ => Response(Status.Forbidden))
+   *         for {
+   *           okBodyText <- securedEffect
+   *         } yield Response.text(okBodyText)
+   *       }
+   *     }
+   * 
+   *   override val run =
+   *     Server.serve(app).provide(Server.default)
+   * }}}
+   */
+  def secured[
+    BaseResource <: Resource[?], 
+    R <: BaseResource |  Iterable[BaseResource], 
+    U <: User[?, ?], 
+    In, 
+    Err, 
+    Out, 
+    E <: ZIO[In, Err, Out]
+  ](
+    effect: Request => U => R => E
+  )(
+    requiredRoles: Set[Role.Role], requiredPermissions: Set[String | Symbol]
+  ): Request => U => R => ZIO[In, UserNotAuthorizedForResourceException[?] | Err, Out] = 
+    val authPolicy = new GenericAuthorizationPolicy(requiredRoles, requiredPermissions)
+    (request: Request) => (user: U) => (resource: R) => {
+      authPolicy.authorized(user)(resource) *> effect(request)(user)(resource)
+    }
+

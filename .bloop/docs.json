@@ -173,7 +173,7 @@
             "name": "scala-compiler",
             "version": "3.3.0",
             "options": [
-                "-groups"
+                
             ],
             "jars": [
                 "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar",

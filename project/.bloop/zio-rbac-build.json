@@ -24,6 +24,8 @@
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/2.5.0/sbt-scalafmt_2.12_1.0-2.5.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-scalafix_2.12_1.0/0.11.0/sbt-scalafix_2.12_1.0-0.11.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sbt-website_2.12_1.0/0.3.5/zio-sbt-website-0.3.5.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-site-paradox_2.12_1.0/1.5.0/sbt-site-paradox-1.5.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-ghpages_2.12_1.0/0.8.0/sbt-ghpages-0.8.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.0/main_2.12-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.0/io_2.12-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",
@@ -43,6 +45,9 @@
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-unidoc_2.12_1.0/0.5.0/sbt-unidoc-0.5.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/sbt-api-mappings/sbt-api-mappings_2.12_1.0/3.0.2/sbt-api-mappings-3.0.2.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.14.2/circe-yaml_2.12-0.14.2.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-site_2.12_1.0/1.5.0/sbt-site-1.5.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lightbend/paradox/sbt-paradox_2.12_1.0/0.10.3/sbt-paradox-0.10.3.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-git_2.12_1.0/2.0.1/sbt-git-2.0.1.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.9.0/logic_2.12-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.9.0/actions_2.12-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.9.0/main-settings_2.12-1.9.0.jar",
@@ -77,10 +82,16 @@
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.12/2.2.2/izumi-reflect_2.12-2.2.2.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_2.12/2.0.4/zio-streams_2.12-2.0.4.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.12/1.1.2/portable-scala-reflect_2.12-1.1.2.jar",
-            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/extractor/extractor_2.12/2.1.3/extractor_2.12-2.1.3.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.12/0.14.3/circe-core_2.12-0.14.3.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-directives_2.12/0.10.4/unfiltered-directives_2.12-0.10.4.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-filter_2.12/0.10.4/unfiltered-filter_2.12-0.10.4.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-jetty_2.12/0.10.4/unfiltered-jetty_2.12-0.10.4.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lightbend/paradox/paradox_2.12/0.10.3/paradox_2.12-0.10.3.jar",
+            "/home/mb/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/jars/sbt-web.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/michaelpollmeier/versionsort/1.0.11/versionsort-1.0.11.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.0/util-relation_2.12-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.9.0/completion_2.12-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.9.0/task-system_2.12-1.9.0.jar",
@@ -116,6 +127,14 @@
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/2.2.2/izumi-reflect-thirdparty-boopickle-shaded_2.12-2.2.2.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.14.3/circe-numbers_2.12-0.14.3.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.8.0/cats-core_2.12-2.8.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered_2.12/0.10.4/unfiltered_2.12-0.10.4.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-util_2.12/0.10.4/unfiltered-util_2.12-0.10.4.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.44.v20210927/jetty-webapp-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled-java/1.4.1/parboiled-java-1.4.1.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.17/akka-actor_2.12-2.5.17.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.36/webjars-locator-core-0.36.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.0/test-agent-1.9.0.jar",
@@ -134,11 +153,31 @@
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.8.0/cats-kernel_2.12-2.8.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.44.v20210927/jetty-xml-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.44.v20210927/jetty-servlet-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled-core/1.4.1/parboiled-core-1.4.1.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.0/zinc-persist-core-assembly-1.9.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar",
-            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.44.v20210927/jetty-util-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.44.v20210927/jetty-security-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.44.v20210927/jetty-util-ajax-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.44.v20210927/jetty-server-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.44.v20210927/jetty-http-9.4.44.v20210927.jar",
+            "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927.jar"
         ],
         "out": "/home/mb/workspace/scala/zio-rbac/project/.bloop/zio-rbac-build",
         "classesDir": "/home/mb/workspace/scala/zio-rbac/project/.bloop/zio-rbac-build/scala-2.12/sbt-1.0/classes",
@@ -183,8 +222,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.scoverage.ScoverageSbtPlugin.autoImport._, _root_.org.scalafmt.sbt.ScalafmtPlugin.autoImport._, _root_.scalafix.sbt.ScalafixPlugin.autoImport._, _root_.scalafix.sbt.ScalafixTestkitPlugin.autoImport._, _root_.zio.sbt.WebsitePlugin.autoImport._, _root_.mdoc.DocusaurusPlugin.autoImport._, _root_.mdoc.MdocPlugin.autoImport._, _root_.sbtunidoc.BaseUnidocPlugin.autoImport._, _root_.sbtunidoc.GenJavadocPlugin.autoImport._, _root_.sbtunidoc.JavaUnidocPlugin.autoImport._, _root_.sbtunidoc.ScalaUnidocPlugin.autoImport._, _root_.com.thoughtworks.sbtApiMappings.ApiMappings.autoImport._, _root_.com.thoughtworks.sbtApiMappings.BootstrapApiMappings.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.scoverage.ScoverageSbtPlugin, _root_.org.scalafmt.sbt.ScalafmtPlugin, _root_.scalafix.sbt.ScalafixPlugin, _root_.scalafix.sbt.ScalafixTestkitPlugin, _root_.zio.sbt.UnifiedScaladocPlugin, _root_.zio.sbt.WebsitePlugin, _root_.mdoc.DocusaurusPlugin, _root_.mdoc.MdocPlugin, _root_.sbtunidoc.BaseUnidocPlugin, _root_.sbtunidoc.GenJavadocPlugin, _root_.sbtunidoc.JavaUnidocPlugin, _root_.sbtunidoc.PublishJavadocPlugin, _root_.sbtunidoc.ScalaUnidocPlugin, _root_.com.thoughtworks.sbtApiMappings.ApiMappings, _root_.com.thoughtworks.sbtApiMappings.BootstrapApiMappings, _root_.com.thoughtworks.sbtApiMappings.JavadocIoApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.PlayApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.ScalaApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.SonatypeApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.SonatypeApiMappingRuleForSbtPlugins, _root_.com.thoughtworks.sbtApiMappings.SparkApiMappingRule"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.scoverage.ScoverageSbtPlugin.autoImport._, _root_.org.scalafmt.sbt.ScalafmtPlugin.autoImport._, _root_.scalafix.sbt.ScalafixPlugin.autoImport._, _root_.scalafix.sbt.ScalafixTestkitPlugin.autoImport._, _root_.zio.sbt.WebsitePlugin.autoImport._, _root_.com.typesafe.sbt.site.paradox.ParadoxSitePlugin.autoImport._, _root_.com.github.sbt.sbtghpages.GhpagesPlugin.autoImport._, _root_.mdoc.DocusaurusPlugin.autoImport._, _root_.mdoc.MdocPlugin.autoImport._, _root_.sbtunidoc.BaseUnidocPlugin.autoImport._, _root_.sbtunidoc.GenJavadocPlugin.autoImport._, _root_.sbtunidoc.JavaUnidocPlugin.autoImport._, _root_.sbtunidoc.ScalaUnidocPlugin.autoImport._, _root_.com.thoughtworks.sbtApiMappings.ApiMappings.autoImport._, _root_.com.thoughtworks.sbtApiMappings.BootstrapApiMappings.autoImport._, _root_.com.typesafe.sbt.site.SitePlugin.autoImport._, _root_.com.typesafe.sbt.site.SitePreviewPlugin.autoImport._, _root_.com.typesafe.sbt.site.SiteScaladocPlugin.autoImport._, _root_.com.typesafe.sbt.site.preprocess.PreprocessPlugin.autoImport._, _root_.com.lightbend.paradox.sbt.ParadoxPlugin.autoImport._, _root_.com.github.sbt.git.GitPlugin.autoImport._, _root_.com.typesafe.sbt.web.SbtWeb.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.scoverage.ScoverageSbtPlugin, _root_.org.scalafmt.sbt.ScalafmtPlugin, _root_.scalafix.sbt.ScalafixPlugin, _root_.scalafix.sbt.ScalafixTestkitPlugin, _root_.zio.sbt.UnifiedScaladocPlugin, _root_.zio.sbt.WebsitePlugin, _root_.com.typesafe.sbt.site.paradox.ParadoxSitePlugin, _root_.com.github.sbt.sbtghpages.GhpagesPlugin, _root_.mdoc.DocusaurusPlugin, _root_.mdoc.MdocPlugin, _root_.sbtunidoc.BaseUnidocPlugin, _root_.sbtunidoc.GenJavadocPlugin, _root_.sbtunidoc.JavaUnidocPlugin, _root_.sbtunidoc.PublishJavadocPlugin, _root_.sbtunidoc.ScalaUnidocPlugin, _root_.com.thoughtworks.sbtApiMappings.ApiMappings, _root_.com.thoughtworks.sbtApiMappings.BootstrapApiMappings, _root_.com.thoughtworks.sbtApiMappings.JavadocIoApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.PlayApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.ScalaApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.SonatypeApiMappingRule, _root_.com.thoughtworks.sbtApiMappings.SonatypeApiMappingRuleForSbtPlugins, _root_.com.thoughtworks.sbtApiMappings.SparkApiMappingRule, _root_.com.typesafe.sbt.site.SitePlugin, _root_.com.typesafe.sbt.site.SitePreviewPlugin, _root_.com.typesafe.sbt.site.SiteScaladocPlugin, _root_.com.typesafe.sbt.site.preprocess.PreprocessPlugin, _root_.com.lightbend.paradox.sbt.ParadoxPlugin, _root_.com.github.sbt.git.GitBranchPrompt, _root_.com.github.sbt.git.GitPlugin, _root_.com.github.sbt.git.GitVersioning, _root_.com.typesafe.sbt.web.SbtWeb"
             ]
         },
         "test": {
@@ -337,6 +376,40 @@
                             "name": "zio-sbt-website",
                             "classifier": "sources",
                             "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sbt-website_2.12_1.0/0.3.5/zio-sbt-website-0.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-site-paradox",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-site-paradox",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-site-paradox_2.12_1.0/1.5.0/sbt-site-paradox-1.5.0.jar"
+                        },
+                        {
+                            "name": "sbt-site-paradox",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-site-paradox_2.12_1.0/1.5.0/sbt-site-paradox-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-ghpages",
+                    "version": "0.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-ghpages",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-ghpages_2.12_1.0/0.8.0/sbt-ghpages-0.8.0.jar"
+                        },
+                        {
+                            "name": "sbt-ghpages",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-ghpages_2.12_1.0/0.8.0/sbt-ghpages-0.8.0-sources.jar"
                         }
                     ]
                 },
@@ -630,6 +703,57 @@
                     ]
                 },
                 {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-site",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-site",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-site_2.12_1.0/1.5.0/sbt-site-1.5.0.jar"
+                        },
+                        {
+                            "name": "sbt-site",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-site_2.12_1.0/1.5.0/sbt-site-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lightbend.paradox",
+                    "name": "sbt-paradox",
+                    "version": "0.10.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-paradox",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lightbend/paradox/sbt-paradox_2.12_1.0/0.10.3/sbt-paradox-0.10.3.jar"
+                        },
+                        {
+                            "name": "sbt-paradox",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lightbend/paradox/sbt-paradox_2.12_1.0/0.10.3/sbt-paradox-0.10.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-git",
+                    "version": "2.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-git",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-git_2.12_1.0/2.0.1/sbt-git-2.0.1.jar"
+                        },
+                        {
+                            "name": "sbt-git",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-git_2.12_1.0/2.0.1/sbt-git-2.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.github.plokhotnyuk.jsoniter-scala",
                     "name": "jsoniter-scala-core_2.12",
                     "version": "2.4.0",
@@ -853,17 +977,17 @@
                 {
                     "organization": "org.jsoup",
                     "name": "jsoup",
-                    "version": "1.12.1",
+                    "version": "1.15.3",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "jsoup",
-                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar"
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar"
                         },
                         {
                             "name": "jsoup",
                             "classifier": "sources",
-                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.12.1/jsoup-1.12.1-sources.jar"
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.15.3/jsoup-1.15.3-sources.jar"
                         }
                     ]
                 },
@@ -919,6 +1043,117 @@
                     ]
                 },
                 {
+                    "organization": "ws.unfiltered",
+                    "name": "unfiltered-directives_2.12",
+                    "version": "0.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unfiltered-directives_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-directives_2.12/0.10.4/unfiltered-directives_2.12-0.10.4.jar"
+                        },
+                        {
+                            "name": "unfiltered-directives_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-directives_2.12/0.10.4/unfiltered-directives_2.12-0.10.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ws.unfiltered",
+                    "name": "unfiltered-filter_2.12",
+                    "version": "0.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unfiltered-filter_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-filter_2.12/0.10.4/unfiltered-filter_2.12-0.10.4.jar"
+                        },
+                        {
+                            "name": "unfiltered-filter_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-filter_2.12/0.10.4/unfiltered-filter_2.12-0.10.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ws.unfiltered",
+                    "name": "unfiltered-jetty_2.12",
+                    "version": "0.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unfiltered-jetty_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-jetty_2.12/0.10.4/unfiltered-jetty_2.12-0.10.4.jar"
+                        },
+                        {
+                            "name": "unfiltered-jetty_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-jetty_2.12/0.10.4/unfiltered-jetty_2.12-0.10.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lightbend.paradox",
+                    "name": "paradox_2.12",
+                    "version": "0.10.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paradox_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lightbend/paradox/paradox_2.12/0.10.3/paradox_2.12-0.10.3.jar"
+                        },
+                        {
+                            "name": "paradox_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lightbend/paradox/paradox_2.12/0.10.3/paradox_2.12-0.10.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.sbt",
+                    "name": "sbt-web",
+                    "version": "1.4.4",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "sbt-web",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/jars/sbt-web.jar"
+                        },
+                        {
+                            "name": "sbt-web",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/srcs/sbt-web-sources.jar"
+                        },
+                        {
+                            "name": "sbt-web",
+                            "classifier": "javadoc",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e76e2a447667e2d4dc4b5002fa7a84e35111061f"
+                            },
+                            "path": "/home/mb/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/docs/sbt-web-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.michaelpollmeier",
+                    "name": "versionsort",
+                    "version": "1.0.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "versionsort",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/michaelpollmeier/versionsort/1.0.11/versionsort-1.0.11.jar"
+                        },
+                        {
+                            "name": "versionsort",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/michaelpollmeier/versionsort/1.0.11/versionsort-1.0.11-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "dev.zio",
                     "name": "izumi-reflect-thirdparty-boopickle-shaded_2.12",
                     "version": "2.2.2",
@@ -970,6 +1205,142 @@
                     ]
                 },
                 {
+                    "organization": "ws.unfiltered",
+                    "name": "unfiltered_2.12",
+                    "version": "0.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unfiltered_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered_2.12/0.10.4/unfiltered_2.12-0.10.4.jar"
+                        },
+                        {
+                            "name": "unfiltered_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered_2.12/0.10.4/unfiltered_2.12-0.10.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ws.unfiltered",
+                    "name": "unfiltered-util_2.12",
+                    "version": "0.10.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unfiltered-util_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-util_2.12/0.10.4/unfiltered-util_2.12-0.10.4.jar"
+                        },
+                        {
+                            "name": "unfiltered-util_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/ws/unfiltered/unfiltered-util_2.12/0.10.4/unfiltered-util_2.12-0.10.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-webapp",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-webapp",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.44.v20210927/jetty-webapp-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-webapp",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.44.v20210927/jetty-webapp-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.pegdown",
+                    "name": "pegdown",
+                    "version": "1.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pegdown",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0.jar"
+                        },
+                        {
+                            "name": "pegdown",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.parboiled",
+                    "name": "parboiled-java",
+                    "version": "1.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "parboiled-java",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled-java/1.4.1/parboiled-java-1.4.1.jar"
+                        },
+                        {
+                            "name": "parboiled-java",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled-java/1.4.1/parboiled-java-1.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "ST4",
+                    "version": "4.3.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ST4",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.jar"
+                        },
+                        {
+                            "name": "ST4",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.12",
+                    "version": "2.5.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.17/akka-actor_2.12-2.5.17.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.17/akka-actor_2.12-2.5.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars",
+                    "name": "webjars-locator-core",
+                    "version": "0.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "webjars-locator-core",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.36/webjars-locator-core-0.36.jar"
+                        },
+                        {
+                            "name": "webjars-locator-core",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.36/webjars-locator-core-0.36-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.typelevel",
                     "name": "cats-kernel_2.12",
                     "version": "2.8.0",
@@ -983,6 +1354,346 @@
                             "name": "cats-kernel_2.12",
                             "classifier": "sources",
                             "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.8.0/cats-kernel_2.12-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-xml",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-xml",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.44.v20210927/jetty-xml-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-xml",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.44.v20210927/jetty-xml-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-servlet",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-servlet",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.44.v20210927/jetty-servlet-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-servlet",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.44.v20210927/jetty-servlet-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.parboiled",
+                    "name": "parboiled-core",
+                    "version": "1.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "parboiled-core",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled-core/1.4.1/parboiled-core-1.4.1.jar"
+                        },
+                        {
+                            "name": "parboiled-core",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled-core/1.4.1/parboiled-core-1.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm",
+                    "version": "9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.2/asm-9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm-tree",
+                    "version": "9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm-tree",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
+                        },
+                        {
+                            "name": "asm-tree",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm-analysis",
+                    "version": "9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm-analysis",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar"
+                        },
+                        {
+                            "name": "asm-analysis",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm-util",
+                    "version": "9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm-util",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar"
+                        },
+                        {
+                            "name": "asm-util",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/9.2/asm-util-9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr-runtime",
+                    "version": "3.5.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "antlr-runtime",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar"
+                        },
+                        {
+                            "name": "antlr-runtime",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.12",
+                    "version": "0.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.12",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.9.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-util",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-util",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.44.v20210927/jetty-util-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.44.v20210927/jetty-util-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-security",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-security",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.44.v20210927/jetty-security-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-security",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.44.v20210927/jetty-security-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-util-ajax",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-util-ajax",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.44.v20210927/jetty-util-ajax-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-util-ajax",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.44.v20210927/jetty-util-ajax-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-server",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-server",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.44.v20210927/jetty-server-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-server",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.44.v20210927/jetty-server-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.servlet",
+                    "name": "javax.servlet-api",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.servlet-api",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "javax.servlet-api",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-http",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-http",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.44.v20210927/jetty-http-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.44.v20210927/jetty-http-9.4.44.v20210927-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-io",
+                    "version": "9.4.44.v20210927",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-io",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927.jar"
+                        },
+                        {
+                            "name": "jetty-io",
+                            "classifier": "sources",
+                            "path": "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927-sources.jar"
                         }
                     ]
                 },
