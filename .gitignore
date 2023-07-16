@@ -21,6 +21,6 @@ website/build
 website/i18n/en.json
 website/static/api
 website/yarn.lock
-zio-rbac-docs/
+zio-http-authorization-docs/
 .DS_Store
 

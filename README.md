@@ -1,11 +1,11 @@
-# ZIO-rbac
+# Zio-http-authorization
 
-ZIO-rbac is a library for basic effectful role-based access-control in ZIO-http applications.
+Zio-http-authorization is a library for basic effectful role-based access-control in ZIO-http applications.
 
 ## Basic concepts
 
 ### Role
-A role is a effectively a tag that is associates with [Users](#user) in a many-to-many fashion and potentially required by many [AuthorizationPolicies](#authorizationpolicy).
+A role is a effectively a tag that is associated with [Users](#user) in a many-to-many fashion and potentially required by many [AuthorizationPolicies](#authorizationpolicy).
 
 This library defines the following default roles:
 
@@ -14,8 +14,8 @@ This library defines the following default roles:
   - `USER`  - intended for standard users.
 
 ### Permission
-A permission is again a form of tag, but this time associated with descriptive selector for a type of [Resource](#resource). It is also associated with [Users](#user) in a many-to-many fashion, and is usually used to describe actions that can be performed on a resource.
-[AuthorizationPolicies](#authorizationpolicy) may require a user to hold a certain permission for the resource in order to be authorized.
+A permission is again a form of tag, but this time representing a (kind of) action a user may be permitted to perform on a [Resource](#resource). It is also associated with [Users](#user) in a many-to-many fashion, but this time tupled with a descriptive [ResourceSelector](#resourceselector).
+Thus, an [AuthorizationPolicy](#authorizationpolicy) may require a user to hold a certain permission for the specific resource in order to be authorized.
 
 ### Resource
 A resource is a type of object that can be protected by [AuthorizationPolicies](#authorizationpolicy). It is usually a class that represents an aggregate-root in a domain model. In the bounded context of authorization, this library defines a resource via a trait that extends `Product with Serializable` and is generic in the type of its descriptor. The desriptor-type is constrained to be an instance of a [ResourceDescriptor](#resourcedescriptor).
@@ -31,8 +31,11 @@ Additionaly, it defines the following values
   - `resourceId` of the generic id-type
   - `tenantId` an `Option` of the generic tenant-id type. This value is an `Option` to support single-tenant applications and resources which do not belong to a specific tenant.
 
+### ResourceSelector
+A resource-selector is simiar to a [ResourceDescriptor](#resourcedescriptor), except that the `resourceId` is also an `Option`. If any option is `None`, the selector will match resources with any value for these fields. Otherwise, the selector will only match resources with the same value for these fields.
+
 ### User
-A user is the subject of authorization and the holder of [Roles](#role) and [Permissions](#permission). A user is identified by a unique id of a generic type constrained to the the union `UUID | Symbol | String | Number | Product with Serializable` and by an optional tenant-id of a generic type constrained to the same union. The tenant-id is optional to support single-tenant applications and users (e.g. SUPER-users) which do not belong to a specific tenant.
+A user is the subject of authorization and the holder of [Roles](#role) and [Permissions](#permission), which are associated to the user together with a [ResourceSelector](#resourceselector). A user is identified by a unique id of a generic type constrained to the the union `UUID | Symbol | String | Number | Product with Serializable` and by an optional tenant-id of a generic type constrained to the same union. The tenant-id is optional to support single-tenant applications and users (e.g. SUPER-users) which do not belong to a specific tenant.
 
 ### AuthorizationPolicy
 An authorization-policy encapsulates a specific authorization-logic for a specific type of resource and specific type of user. It is generic in its type of [User](#user) and [Resource](#resource) and defines a single `authorize`-method which takes a resource of the generic type or an `Iterable` thereof, also takes a user of the generic type and returns a `ZIO`-effect which may either fail with a `UserNotAuthorizedForResourceException` or succeed with the (filtered) resource.
@@ -51,10 +54,10 @@ An EndpointPolicyProvider is used to procure an [AuthorizationPolicy](#authoriza
 The following exemplifies usage of the `secured` function:
 
 ```scala
-import mbauer83.zio_rbac.Role
-import mbauer83.zio_rbac.User._
-import mbauer83.zio_rbac.Resource._
-import mbauer83.zio_rbac.AuthorizationPolicy._
+import mbauer83.zio_http_authorization.Role
+import mbauer83.zio_http_authorization.User._
+import mbauer83.zio_http_authorization.Resource._
+import mbauer83.zio_http_authorization.AuthorizationPolicy._
 
 import zio.http._
 import zio.ZIO
@@ -87,12 +90,12 @@ class SecuredExampleUsage extends ZIOAppDefault:
 This is an example for usage of an `EndpointPolicyProvider`:
 
 ```scala
-package mbauer83.zio_rbac
+package mbauer83.zio_http_authorization
 
-import mbauer83.zio_rbac.User._
-import mbauer83.zio_rbac.Resource._
-import mbauer83.zio_rbac.AuthorizationPolicy._
-import mbauer83.zio_rbac.EndpointPolicyProvider._
+import mbauer83.zio_http_authorization.User._
+import mbauer83.zio_http_authorization.Resource._
+import mbauer83.zio_http_authorization.AuthorizationPolicy._
+import mbauer83.zio_http_authorization.EndpointPolicyProvider._
 
 import zio.ZIO
 import zio.ZIOAppDefault

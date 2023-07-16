@@ -2,29 +2,29 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/home/mb/workspace/scala/zio-rbac",
-        "workspaceDir": "/home/mb/workspace/scala/zio-rbac",
+        "directory": "/home/mb/workspace/scala/zio-http-authorization",
+        "workspaceDir": "/home/mb/workspace/scala/zio-http-authorization",
         "sources": [
-            "/home/mb/workspace/scala/zio-rbac/src/test/scala",
-            "/home/mb/workspace/scala/zio-rbac/src/test/scala-3",
-            "/home/mb/workspace/scala/zio-rbac/src/test/java",
-            "/home/mb/workspace/scala/zio-rbac/target/scala-3.3.0/src_managed/test"
+            "/home/mb/workspace/scala/zio-http-authorization/src/test/scala",
+            "/home/mb/workspace/scala/zio-http-authorization/src/test/scala-3",
+            "/home/mb/workspace/scala/zio-http-authorization/src/test/java",
+            "/home/mb/workspace/scala/zio-http-authorization/target/scala-3.3.0/src_managed/test"
         ],
         "dependencies": [
             "root",
-            "zio_rbac-test",
+            "zio_http_authorization-test",
             "docs-test"
         ],
         "classpath": [
-            "/home/mb/workspace/scala/zio-rbac/.bloop/root/scala-3/classes",
+            "/home/mb/workspace/scala/zio-http-authorization/.bloop/root/scala-3/classes",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar",
             "/home/mb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
         ],
-        "out": "/home/mb/workspace/scala/zio-rbac/.bloop/root",
-        "classesDir": "/home/mb/workspace/scala/zio-rbac/.bloop/root/scala-3/test-classes",
+        "out": "/home/mb/workspace/scala/zio-http-authorization/.bloop/root",
+        "classesDir": "/home/mb/workspace/scala/zio-http-authorization/.bloop/root/scala-3/test-classes",
         "resources": [
-            "/home/mb/workspace/scala/zio-rbac/src/test/resources",
-            "/home/mb/workspace/scala/zio-rbac/target/scala-3.3.0/resource_managed/test"
+            "/home/mb/workspace/scala/zio-http-authorization/src/test/resources",
+            "/home/mb/workspace/scala/zio-http-authorization/target/scala-3.3.0/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -150,7 +150,7 @@
             "config": {
                 "home": "/home/mb/.sdkman/candidates/java/17.0.7-tem",
                 "options": [
-                    "-Duser.dir=/home/mb/workspace/scala/zio-rbac"
+                    "-Duser.dir=/home/mb/workspace/scala/zio-http-authorization"
                 ]
             },
             "mainClass": [

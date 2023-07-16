@@ -8,7 +8,7 @@ inThisBuild(
       Developer("mbauer", "Michael Bauer", "mbauer.mphil@googlemail.com", url("https://github.com/mbauer83")),
     ),
     scmInfo       := Some(
-      ScmInfo(url("https://github.com/mbauer83/zio-rbac"), "scm:git:git@github.com:mbauer83/zio-rbac.git")
+      ScmInfo(url("https://github.com/mbauer83/zio-http-authorization"), "scm:git:git@github.com:mbauer83/zio-http-authorization.git")
     ),
     Test / fork              := true,
     Test / parallelExecution := false,
@@ -23,11 +23,11 @@ val zioVersion     = "2.0.15"
 val zioHTTPVersion = "3.0.0-RC2"
 
 lazy val root =
-  project.in(file(".")).settings(publish / skip := true).aggregate(zio_rbac, docs)
+  project.in(file(".")).settings(publish / skip := true).aggregate(zio_http_authorization, docs)
 
-lazy val zio_rbac = project
-  .in(file("zio-rbac"))
-  .settings(stdSettings("zio-rbac"))
+lazy val zio_http_authorization = project
+  .in(file("zio-http-authorization"))
+  .settings(stdSettings("zio-http-authorization"))
   .settings(
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio"          % zioVersion,
@@ -43,25 +43,25 @@ lazy val zio_rbac = project
   )
 
 lazy val docs = project
-  .in(file("zio-rbac-docs"))
+  .in(file("zio-http-authorization-docs"))
   .settings(
-    moduleName                                  := "zio-rbac-docs",
+    moduleName                                  := "zio-http-authorization-docs",
     scalacOptions                               -= "-Yno-imports",
     scalacOptions                               -= "-Xfatal-warnings",
     libraryDependencies                         ++= Seq("dev.zio" %% "zio" % zioVersion),
     scalaVersion                                := Scala3,
     crossScalaVersions                          := Seq(Scala213, Scala3),
-    projectName                                 := "ZIO-rbac",
-    mainModuleName                              := (zio_rbac / moduleName).value,
+    projectName                                 := "Zio-http-authorization",
+    mainModuleName                              := (zio_http_authorization / moduleName).value,
     projectStage                                := ProjectStage.Development,
-    ScalaUnidoc / unidoc / unidocProjectFilter  := inProjects(zio_rbac),
+    ScalaUnidoc / unidoc / unidocProjectFilter  := inProjects(zio_http_authorization),
     siteSourceDirectory                         := target.value / "api",
     previewFixedPort                            := Some(8888),
     previewPath                                 := "index.html",
     makeSite / mappings                         ++= Seq(
                                                       file("LICENSE") -> "LICENSE",
                                                     ),
-    git.remoteRepo                              := "git@github.com:mbauer83/zio-rbac.git",
+    git.remoteRepo                              := "git@github.com:mbauer83/zio-http-authorization.git",
   )
-  .dependsOn(zio_rbac)
+  .dependsOn(zio_http_authorization)
   .enablePlugins(WebsitePlugin, SiteScaladocPlugin, GhpagesPlugin)
