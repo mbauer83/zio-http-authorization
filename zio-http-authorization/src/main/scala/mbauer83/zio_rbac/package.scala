@@ -1,8 +1,8 @@
 package mbauer83
 
 /**
- * A simple Role Based Access Control (RBAC) implementation for use with
- * ZIO-http. Provides the means to declare and manage [[Resource.Resource Resources]],
+ * A simple library for role-based and permission-based access-control with ZIO-http.
+ * Provides the means to declare and manage [[Resource.Resource Resources]],
  * [[Permission.Permission Permissions]], [[Role.Role Roles]], [[User.User Users]] and 
  * [[AuthorizationPolicy.AuthorizationPolicy AuthorizationPolicies]].
  *
